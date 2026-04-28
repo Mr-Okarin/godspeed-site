@@ -560,12 +560,12 @@ h1 {
 }
 
 .member-card .member-card__name--champion + p {
-  color: #f7fbff;
+  color: #6ecbff;
   font-weight: 600;
 }
 
 .member-card__note {
-  color: #eef7ff;
+  color: #6ecbff;
   font-size: 0.92rem;
   font-weight: 600;
 }
