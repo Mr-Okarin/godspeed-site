@@ -404,11 +404,29 @@ h1 {
   padding: 8px 12px;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.08);
-  color: var(--gold-soft);
   font-size: 0.76rem;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+}
+
+.champion-card__tag--champion {
+  color: #e6f4ff;
+  background: rgba(110, 231, 248, 0.14);
+  border: 1px solid rgba(110, 231, 248, 0.24);
+}
+
+.champion-stars {
+  margin-top: 14px;
+  color: var(--gold);
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.55rem;
+  letter-spacing: 0.16em;
+  line-height: 1;
+}
+
+.champion-name {
+  color: var(--gold);
 }
 
 .champion-card h2 {
@@ -485,11 +503,18 @@ h1 {
 }
 
 .subpage-card__eyebrow {
-  color: var(--gold-soft);
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+}
+
+.subpage-card__eyebrow--member {
+  color: #8fb0d4;
+}
+
+.subpage-card__eyebrow--champion {
+  color: #eef9ff;
 }
 
 .subpage-card strong {
@@ -522,6 +547,10 @@ h1 {
   font-size: 2rem;
   letter-spacing: 0.04em;
   line-height: 0.95;
+}
+
+.member-card__name--champion {
+  color: var(--gold);
 }
 
 .member-card p {
@@ -560,6 +589,12 @@ h1 {
   font-family: "Bebas Neue", sans-serif;
   font-size: 2rem;
   letter-spacing: 0.08em;
+}
+
+.champion-stars--member {
+  margin-top: 10px;
+  font-size: 1.35rem;
+  letter-spacing: 0.14em;
 }
 
 @keyframes gridDrift {
